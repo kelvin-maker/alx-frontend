@@ -1,0 +1,44 @@
+html {
+  overflow-y: scroll;
+}
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Reset the color of the section-tagline to color-primary */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Reset the color of the card-category to color-primary */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Reset the color of the body to text-color */
+body {
+  color: var(--text-color);
+}
+
+/* Reset the color of the anchor to text-color */
+a {
+  color: var(--text-color);
+}
+.visually-hidden {
+  display: none;
+}
+
+/* Set the foreground color of all elements with class card-category to #D73953 */
+.card-category {
+  color: #D73953;
+}
+
+/* Set the foreground color of all elements with class section-tagline to #D73953 */
+.section-tagline {
+  color: #D73953;
+}
