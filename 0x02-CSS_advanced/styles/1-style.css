@@ -1,4 +1,3 @@
 html {
-  overflow-y: scroll;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-y: auto;
 }
