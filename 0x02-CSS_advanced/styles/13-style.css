@@ -66,15 +66,19 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
-a[href]:link {
+a:link {
   font-style: italic;
 }
 
-a[href]:visited {
+a:visited {
   text-decoration: underline;
 }
 
-a[href]:active {
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
   background-color: var(--color-light-grey);
 }
 
