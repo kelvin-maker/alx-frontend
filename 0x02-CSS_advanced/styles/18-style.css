@@ -47,7 +47,7 @@ html {
   --nav-item-letter-spacing: calc(var(--root) * 4%);
   --nav-item-display: inline;
   --nav-item-margin: 5rem 0;
-  --nav-item-link-hover:var(--color-primary)
+  --nav-item-link-hover:var(--color-primary);
 }
 
 .section {
