@@ -50,10 +50,7 @@ html {
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
+
 
 /* Reset the color of the card-category to color-primary */
 .card-category {
@@ -102,6 +99,10 @@ a:active {
 /* Set the foreground color of all elements with class section-tagline to #D73953 */
 .section-tagline {
   color: #D73953;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
