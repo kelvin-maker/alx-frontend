@@ -1,12 +1,6 @@
 @import url("normalize.css");
 
-* {
-  box-sizing: border-box;
-}
-html {
-  overflow-y: scroll;
-  font-size: 62.5%;
-}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -34,7 +28,14 @@ html {
   --section-title-color: var(--color-black);
 
 }
+* {
+  box-sizing: border-box;
+}
 
+html {
+  overflow-y: scroll;
+  font-size: 62.5%;
+}
 .section-header {
   text-align: var(--section-header-align);
 }
