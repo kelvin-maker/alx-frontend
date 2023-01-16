@@ -166,7 +166,7 @@ color: var(--nav-item-link-hover);
 .row {
 content: none;
 display: table;
-clear: both;
+float: none;
 }
 ul.row {
 margin: 0;
