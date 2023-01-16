@@ -27,10 +27,15 @@
   --section-title-color: var(--color-black);
 
 }
+* {
+  box-sizing: border-box;
+}
+
 html {
   overflow-y: scroll;
   font-size: 62.5%;
 }
+
 .section-header {
   text-align: var(--section-header-align);
 }
