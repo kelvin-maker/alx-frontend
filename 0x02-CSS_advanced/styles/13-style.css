@@ -61,6 +61,25 @@ body {
   line-height: var(--line-height-base);
 }
 
+/* Reset the color of the anchor to text-color */
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
+}
 
 .visually-hidden {
   display: none;
@@ -76,21 +95,4 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-}
-/* Reset the color of the anchor to text-color */
-
-a:link {
-  font-style: italic;
-}
-
-a:visited {
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  background-color: var(--color-light-grey);
 }
