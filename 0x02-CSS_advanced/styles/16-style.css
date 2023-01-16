@@ -1,5 +1,14 @@
-@import url("normalize.css");
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  font-size: 62.5%;
+}
+
+@import url("normalize.css");
 
 :root {
   --color-primary: #d73953;
@@ -8,8 +17,6 @@
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -29,22 +36,7 @@
 
 }
 
-html {
-  overflow-y: scroll;
-  font-size: 62.5%;
-}
-/* Reset the color of the section-tagline to color-primary */
-.section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
 
-}
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
 .section-header {
   text-align: var(--section-header-align);
 }
@@ -55,7 +47,17 @@ html {
   margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
-
+/* Reset the color of the section-tagline to color-primary */
+.section-tagline {
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 
 /* Reset the color of the card-category to color-primary */
 .card-category {
@@ -72,16 +74,15 @@ body {
 }
 
 /* Reset the color of the anchor to text-color */
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
-a:link {
-  font-style: italic;
-}
+
+
 
 a:visited {
-  text-decoration: underline;
+  font-style: italic;
 }
 
 a:hover {
@@ -102,7 +103,6 @@ a:active {
 }
 
 /* Set the foreground color of all elements with class section-tagline to #D73953 */
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
