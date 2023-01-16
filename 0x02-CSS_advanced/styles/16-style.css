@@ -52,7 +52,10 @@ html {
   color: #D73953;
 }
 
-
+.container {
+  width: 960px;
+  margin: auto;
+}
 /* Reset the color of the card-category to color-primary */
 .card-category {
   color: var(--color-primary);
@@ -99,10 +102,7 @@ a:active {
 
 /* Set the foreground color of all elements with class section-tagline to #D73953 */
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
