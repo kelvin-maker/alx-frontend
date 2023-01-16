@@ -62,10 +62,6 @@ body {
 }
 
 /* Reset the color of the anchor to text-color */
-a {
-  color: var(--text-color);
-  text-decoration: none;
-}
 
 a:link {
   font-style: italic;

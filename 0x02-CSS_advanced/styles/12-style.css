@@ -75,10 +75,7 @@ a {
   color: #D73953;
 }
 
-/* Set the foreground color of all elements with class section-tagline to #D73953 */
-.section-tagline {
-  color: #D73953;
-}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
