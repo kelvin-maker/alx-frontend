@@ -42,9 +42,9 @@ html {
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: calc(var(--root) * 4%);
-  --nav-item-display: inline;
-  --nav-item-margin: 5rem 0;
-  --nav-item-link-hover:var(--color-primary);
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 3rem 0;
+  --nav-item-link-hover: var(--color-primary);
 }
 
 .section {
@@ -130,9 +130,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
-footer {
-padding: var(--footer-padding);
-}
 .navbar-menu {
 float: right;
 }
@@ -161,3 +158,8 @@ padding: calc(var(--root) / 2) var(--root);
 nav .nav-link:hover {
 color: var(--nav-item-link-hover);
 }
+
+footer {
+padding: var(--footer-padding);
+}
+
