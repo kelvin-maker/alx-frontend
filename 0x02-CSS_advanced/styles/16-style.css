@@ -49,6 +49,7 @@ html {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+  color: #D73953;
 }
 
 
@@ -97,9 +98,7 @@ a:active {
 }
 
 /* Set the foreground color of all elements with class section-tagline to #D73953 */
-.section-tagline {
-  color: #D73953;
-}
+
 .container {
   width: 960px;
   margin: 0 auto;
