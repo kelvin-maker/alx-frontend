@@ -163,7 +163,7 @@ padding: calc(var(--root) / 2) var(--root);
 nav .nav-link:hover {
 color: var(--nav-item-link-hover);
 }
-.row + .row{
+.row::after{
 content: none;
 display: table;
 float: none;
