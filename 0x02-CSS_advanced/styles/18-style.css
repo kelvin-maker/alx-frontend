@@ -45,7 +45,9 @@ html {
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: calc(var(--root) * 4%);
-  --nav-item-display: inline
+  --nav-item-display: inline;
+  --nav-item-margin: 5rem 0;
+  --nav-item-link-hover:var(--color-primary)
 }
 
 .section {
